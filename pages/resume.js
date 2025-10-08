@@ -4,7 +4,12 @@ const PROFILE_IMG = "https://i.ibb.co/7tNbF3k3/file-000000000f3461f7b9667cad3475
 export default function Resume() {
   const downloadResume = () => {
     // placeholder - link to generated PDF
-    window.open('/resume.pdf', '_blank');
+    const link = document.createElement('a');
+    link.href = '/resume.pdf';
+    link.download = 'PH0ENIX_WEB3_Resume.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
   }
   return (
     <>

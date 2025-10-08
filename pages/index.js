@@ -9,6 +9,7 @@ export default function Home() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/favicon.ico" />
         <title>PH0ENIX_WEB3 — Community Growth Ambassador</title>
         <meta name="description" content="PH0ENIX_WEB3 — Community Growth Ambassador, Web3 Strategist. Bitget Partner." />
       </Head>
