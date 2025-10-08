@@ -14,6 +14,9 @@ export default function Resume() {
   return (
     <>
       <Head>
+        <link rel="icon" href="/favicon.ico" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3167199119695111"
+             crossOrigin="anonymous"></script>
         <title>PH0ENIX_WEB3 — Resume</title>
         <meta name="description" content="Resume - PH0ENIX_WEB3" />
       </Head>

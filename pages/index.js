@@ -10,6 +10,8 @@ export default function Home() {
     <>
       <Head>
         <link rel="icon" href="/favicon.ico" />
+        <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3167199119695111"
+             crossOrigin="anonymous"></script>
         <title>PH0ENIX_WEB3 — Community Growth Ambassador</title>
         <meta name="description" content="PH0ENIX_WEB3 — Community Growth Ambassador, Web3 Strategist. Bitget Partner." />
       </Head>
