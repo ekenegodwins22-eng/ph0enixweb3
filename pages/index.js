@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import { useEffect } from 'react'
 
 const PROFILE_IMG = "https://i.ibb.co/7tNbF3k3/file-000000000f3461f7b9667cad34755326.png";
 const BITGET = "https://partner.bitget.ng/bg/E283E7";
@@ -7,6 +8,22 @@ const TELEGRAM = "https://t.me/ph0enix_web";
 const TELEGRAM_BOT = "https://t.me/Ph0enixadmin_bot";
 
 export default function Home() {
+
+  // ✅ Load meta-about.json instantly on page load for SEO crawlers
+  useEffect(() => {
+    fetch('/meta-about.json')
+      .then(res => res.json())
+      .then(data => {
+        console.log("Meta Schema Loaded ✅", data);
+        // Optional advanced injection (helps Google detect external schema)
+        const script = document.createElement('script');
+        script.type = 'application/ld+json';
+        script.text = JSON.stringify(data);
+        document.head.appendChild(script);
+      })
+      .catch(err => console.error("Meta Schema Load Failed ❌", err));
+  }, []);
+
   return (
     <>
       <Head>
@@ -124,6 +141,7 @@ export default function Home() {
           </nav>
         </header>
 
+        {/* ==== HERO ==== */}
         <section className="hero" id="home">
           <img src={PROFILE_IMG} alt="PH0ENIX_WEB3 - Web3 Community Growth Ambassador and Strategist" className="profile-img" />
           <div>
@@ -145,6 +163,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== ABOUT ==== */}
         <section id="about" style={{ marginTop: 30 }}>
           <div className="section-title">About</div>
           <div className="card">
@@ -159,6 +178,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== BITGET ==== */}
         <section id="bitget" style={{ marginTop: 30 }}>
           <div className="section-title">Bitget Partnership</div>
           <div className="card">
@@ -180,6 +200,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== PROJECTS ==== */}
         <section id="projects" style={{ marginTop: 30 }}>
           <div className="section-title">Projects & Collaborations</div>
           <div className="grid">
@@ -190,6 +211,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== SKILLS ==== */}
         <section id="skills" style={{ marginTop: 30 }}>
           <div className="section-title">Core Competencies</div>
           <div className="card skills">
@@ -223,6 +245,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== CONTACT ==== */}
         <section id="contact" style={{ marginTop: 30 }}>
           <div className="section-title">Contact & Connect</div>
           <div className="card">
@@ -234,6 +257,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== INSIGHTS ==== */}
         <section id="insights" style={{ marginTop: 30 }}>
           <div className="section-title">Community Building Philosophy</div>
           <div className="card">
@@ -260,6 +284,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== DISCLAIMER ==== */}
         <section id="disclaimer" style={{ marginTop: 40 }}>
           <div className="section-title">Disclaimer</div>
           <div className="card">
@@ -276,6 +301,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== CTA ==== */}
         <section style={{ marginTop: 30 }}>
           <div className="card">
             <h3>Ready to Build Something Great?</h3>
@@ -290,6 +316,7 @@ export default function Home() {
           </div>
         </section>
 
+        {/* ==== FOOTER ==== */}
         <footer className="footer">
           <div>© 2025 PH0ENIXWEB3. All rights reserved.</div>
           <div style={{ marginTop: 8, fontSize: 12, color: 'var(--muted)' }}>
