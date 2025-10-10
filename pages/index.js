@@ -1,10 +1,10 @@
-
 import Head from 'next/head'
 const PROFILE_IMG = "https://i.ibb.co/7tNbF3k3/file-000000000f3461f7b9667cad34755326.png";
 const BITGET = "https://partner.bitget.ng/bg/E283E7";
 const X_FOLLOW = "https://x.com/intent/follow?screen_name=ph0enix_web3";
 const TELEGRAM = "https://t.me/ph0enix_web";
 const TELEGRAM_BOT = "https://t.me/Ph0enixadmin_bot";
+
 export default function Home() {
   return (
     <>
@@ -14,7 +14,15 @@ export default function Home() {
              crossOrigin="anonymous"></script>
         <title>PH0ENIX_WEB3 | Community Growth & Web3 Ambassador</title>
         <meta name="description" content="PH0ENIX_WEB3 — Web3 Community Builder, Ambassador & Strategist. Building thriving, engaged communities across Web3, DeFi, and tech ecosystems." />
+        <meta name="keywords" content="Web3, community growth, Bitget, Zealy, crypto ambassador, blockchain marketing, PH0ENIX_WEB3" />
+        <meta name="author" content="PH0ENIX_WEB3" />
+        <meta property="og:type" content="website" />
+        <meta property="og:title" content="PH0ENIX_WEB3 — Web3 Community Growth & Strategy" />
+        <meta property="og:description" content="Helping Web3 projects grow authentic, engaged communities that last." />
+        <meta property="og:image" content={PROFILE_IMG} />
+        <meta property="og:url" content="https://ph0enixweb3.dpdns.org" />
       </Head>
+
       <div className="container">
         <header className="header">
           <div className="logo">
@@ -134,9 +142,36 @@ export default function Home() {
           <div className="card">
             <p>Ready to build something great? Let’s collaborate to create thriving digital communities.</p>
             <p><strong>Email:</strong> <a href="mailto:support@ph0enixweb3.dpdns.org" style={{color:'#9fbff6'}}>support@ph0enixweb3.dpdns.org</a></p>
-            <p><strong>X (Follow):</strong> <a href="https://x.com/intent/follow?screen_name=ph0enix_web3" target="_blank" rel="noreferrer">Follow on X</a></p>
-            <p><strong>Telegram:</strong> <a href="https://t.me/ph0enix_web" target="_blank" rel="noreferrer">@ph0enix_web</a></p>
-            <p><strong>Chat Bot:</strong> <a href="https://t.me/Ph0enixadmin_bot" target="_blank" rel="noreferrer">@Ph0enixadmin_bot</a></p>
+            <p><strong>X (Follow):</strong> <a href={X_FOLLOW} target="_blank" rel="noreferrer">Follow on X</a></p>
+            <p><strong>Telegram:</strong> <a href={TELEGRAM} target="_blank" rel="noreferrer">@ph0enix_web</a></p>
+            <p><strong>Chat Bot:</strong> <a href={TELEGRAM_BOT} target="_blank" rel="noreferrer">@Ph0enixadmin_bot</a></p>
+          </div>
+        </section>
+
+        {/* --- NEW SECTION FOR GOOGLE CONTENT --- */}
+        <section id="insights" style={{marginTop:30}}>
+          <div className="section-title">Community Building Philosophy</div>
+          <div className="card">
+            <p>
+              Great Web3 communities aren’t built overnight — they grow through connection, education,
+              and shared goals. Every successful project I’ve worked with started by focusing on people
+              first, not only the token or tech. A real community listens, rewards contribution, and
+              empowers members to become advocates.
+            </p>
+            <p style={{marginTop:10}}>
+              My strategy blends structured growth systems with genuine storytelling. I build frameworks
+              that help projects maintain engagement even after the hype fades — whether through quests,
+              ambassador programs, or educational sprints that keep members excited to participate.
+            </p>
+            <p style={{marginTop:10}}>
+              I also collaborate with teams to design transparent communication, feedback loops, and
+              reward systems that make members feel seen and valued. That’s the difference between a
+              quiet group and a thriving ecosystem.
+            </p>
+            <p style={{marginTop:10}}>
+              The future of Web3 will belong to communities that stay human — and that’s exactly what
+              PH0ENIX_WEB3 stands for.
+            </p>
           </div>
         </section>
 
@@ -163,4 +198,4 @@ export default function Home() {
       </div>
     </>
   )
-}
+               }
