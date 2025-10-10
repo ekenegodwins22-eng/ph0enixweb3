@@ -12,8 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
         <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3167199119695111"
              crossOrigin="anonymous"></script>
-        <title>PH0ENIX_WEB3 — Community Growth Ambassador</title>
-        <meta name="description" content="PH0ENIX_WEB3 — Community Growth Ambassador, Web3 Strategist. Bitget Partner." />
+        <title>PH0ENIX_WEB3 | Community Growth & Web3 Ambassador</title>
+        <meta name="description" content="PH0ENIX_WEB3 — Web3 Community Builder, Ambassador & Strategist. Building thriving, engaged communities across Web3, DeFi, and tech ecosystems." />
       </Head>
       <div className="container">
         <header className="header">
@@ -31,7 +31,7 @@ export default function Home() {
         </header>
 
         <section className="hero" id="home">
-          <img src={PROFILE_IMG} alt="PH0ENIX" className="profile-img" />
+          <img src={PROFILE_IMG} alt="PH0ENIX_WEB3 - Web3 Community Growth Ambassador and Strategist" className="profile-img" />
           <div>
             <h1>I'm PHOENIX_WEB3 — Building Engaged Web3 Communities That Thrive.</h1>
             <p className="lead">
@@ -156,6 +156,9 @@ export default function Home() {
 
         <footer className="footer">
           <div>© 2025 PH0ENIXWEB3. All rights reserved.</div>
+          <div style={{marginTop:8,fontSize:12,color:'var(--muted)'}}>
+            🌐 Verified on Google | Indexed for Web3 Projects
+          </div>
         </footer>
       </div>
     </>

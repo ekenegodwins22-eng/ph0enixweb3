@@ -22,7 +22,7 @@ export default function Resume() {
       </Head>
       <div className="container">
         <header className="resume-header">
-          <img src={PROFILE_IMG} alt="phoenix" className="resume-photo" />
+          <img src={PROFILE_IMG} alt="PH0ENIX_WEB3 - Professional Web3 Community Manager and Ambassador" className="resume-photo" />
           <div>
             <h2>PH0ENIX_WEB3</h2>
             <div className="small">Community Growth Ambassador • Web3 Strategist</div>
@@ -98,6 +98,9 @@ export default function Resume() {
 
         <footer className="footer" style={{marginTop:30}}>
           <div>© 2025 PH0ENIXWEB3. All rights reserved.</div>
+          <div style={{marginTop:8,fontSize:12,color:'var(--muted)'}}>
+            🌐 Verified on Google | Indexed for Web3 Projects
+          </div>
         </footer>
       </div>
     </>

@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ph0enixweb3.vercel.app/sitemap.xml
