@@ -13,14 +13,14 @@ export default function App({ Component, pageProps }) {
 
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://ph0enixweb3.vercel.app/" />
+        <meta property="og:url" content="https://ph0enixweb3.dpdns.org/" />
         <meta property="og:title" content="PH0ENIX_WEB3 | Web3 Community Builder & Ambassador" />
         <meta property="og:description" content="Empowering projects to grow loyal Web3 communities through strategy, engagement, and innovation." />
         <meta property="og:image" content="https://i.ibb.co/7tNbF3k3/file-000000000f3461f7b9667cad34755326.png" />
 
         {/* Twitter */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:url" content="https://ph0enixweb3.vercel.app/" />
+        <meta name="twitter:url" content="https://ph0enixweb3.dpdns.org/" />
         <meta name="twitter:title" content="PH0ENIX_WEB3 | Web3 Community Builder & Ambassador" />
         <meta name="twitter:description" content="Building and managing thriving Web3 communities — strategy, growth, and engagement." />
         <meta name="twitter:image" content="https://i.ibb.co/7tNbF3k3/file-000000000f3461f7b9667cad34755326.png" />
@@ -32,7 +32,7 @@ export default function App({ Component, pageProps }) {
             "@context": "https://schema.org",
             "@type": "Person",
             "name": "PH0ENIX_WEB3",
-            "url": "https://ph0enixweb3.vercel.app/",
+            "url": "https://ph0enixweb3.dpdns.org/",
             "sameAs": [
               "https://x.com/ph0enix_web3",
               "https://t.me/ph0enix_web"
