@@ -1,4 +1,5 @@
 import Head from 'next/head'
+
 const PROFILE_IMG = "https://i.ibb.co/7tNbF3k3/file-000000000f3461f7b9667cad34755326.png";
 const BITGET = "https://partner.bitget.ng/bg/E283E7";
 const X_FOLLOW = "https://x.com/intent/follow?screen_name=ph0enix_web3";
@@ -14,8 +15,10 @@ export default function Home() {
              crossOrigin="anonymous"></script>
         <title>PH0ENIX_WEB3 | Community Growth & Web3 Ambassador</title>
         <meta name="description" content="PH0ENIX_WEB3 — Web3 Community Builder, Ambassador & Strategist. Building thriving, engaged communities across Web3, DeFi, and tech ecosystems." />
-        <meta name="keywords" content="Web3, community growth, Bitget, Zealy, crypto ambassador, blockchain marketing, PH0ENIX_WEB3" />
+        <meta name="keywords" content="Web3, community growth, Bitget, Zealy, crypto ambassador, blockchain marketing, PH0ENIX_WEB3, community building, DeFi engagement" />
         <meta name="author" content="PH0ENIX_WEB3" />
+        <meta name="robots" content="index, follow" />
+        <meta name="google-site-verification" content="YOUR_VERIFICATION_CODE_HERE" />
         <meta property="og:type" content="website" />
         <meta property="og:title" content="PH0ENIX_WEB3 — Web3 Community Growth & Strategy" />
         <meta property="og:description" content="Helping Web3 projects grow authentic, engaged communities that last." />
@@ -171,6 +174,23 @@ export default function Home() {
             <p style={{marginTop:10}}>
               The future of Web3 will belong to communities that stay human — and that’s exactly what
               PH0ENIX_WEB3 stands for.
+            </p>
+          </div>
+        </section>
+
+        {/* --- DISCLAIMER SECTION --- */}
+        <section id="disclaimer" style={{marginTop:40}}>
+          <div className="section-title">Disclaimer</div>
+          <div className="card">
+            <p>
+              PH0ENIX_WEB3 is an independent community strategist and Web3 ambassador not affiliated
+              with any other “Phoenix” or similarly named organizations, projects, or brands.
+              All content, strategies, and partnerships presented here represent independent professional 
+              work for Web3 community development and education.
+            </p>
+            <p style={{marginTop:10}}>
+              This website serves as a personal professional portfolio, showcasing experience,
+              community growth frameworks, and collaborations across blockchain ecosystems.
             </p>
           </div>
         </section>
