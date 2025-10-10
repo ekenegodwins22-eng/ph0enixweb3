@@ -133,7 +133,7 @@ export default function Home() {
           <div className="section-title">Contact & Connect</div>
           <div className="card">
             <p>Ready to build something great? Let’s collaborate to create thriving digital communities.</p>
-            <p><strong>Email:</strong> <a href="mailto:ph0enixweb3.ng@gmail.com" style={{color:'#9fbff6'}}>ph0enixweb3.ng@gmail.com</a></p>
+            <p><strong>Email:</strong> <a href="mailto:support@ph0enixweb3.dpdns.org" style={{color:'#9fbff6'}}>support@ph0enixweb3.dpdns.org</a></p>
             <p><strong>X (Follow):</strong> <a href="https://x.com/intent/follow?screen_name=ph0enix_web3" target="_blank" rel="noreferrer">Follow on X</a></p>
             <p><strong>Telegram:</strong> <a href="https://t.me/ph0enix_web" target="_blank" rel="noreferrer">@ph0enix_web</a></p>
             <p><strong>Chat Bot:</strong> <a href="https://t.me/Ph0enixadmin_bot" target="_blank" rel="noreferrer">@Ph0enixadmin_bot</a></p>
